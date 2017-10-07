@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GingerGarlic</string>
+    <string name="HelloWorld">Hello_World</string>
+    <string name="hello_world">Hello World</string>
+    <string name="welcome_to_gingergarlic">Welcome to GingerGarlic</string>
+    <string name="what_s_your_order">What\'s your order..?</string>
+    <string name="mumbai_west">Mumbai West</string>
+    <string name="mumbai_central">Mumbai Central</string>
+    <string name="harbour">Harbour</string>
+    <string name="app_logo">app_logo</string>
+    <string name="mumbai_east">Mumbai East</string>
+    <string name="lutti">lutti</string>
+    <string name="one">one</string>
+    <string name="nonveg_identity">nonveg_identity</string>
+    <string name="veg_identity">veg_identity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

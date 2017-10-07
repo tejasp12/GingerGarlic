@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:id="@+id/fork_knief"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_restaurant_black_24dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/text_container">
+
+        <TextView
+            android:id="@+id/resto_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:text="Name of the Resto"/>
+
+        <TextView
+            android:id="@+id/resto_category"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic"
+            android:typeface="serif"
+            tools:text="Category"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_non_veg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/nonveg_identity"
+        android:padding="4dp"
+        tools:src="@drawable/img_non_veg1" />
+
+    <ImageView
+        android:id="@+id/img_veg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/veg_identity"
+        android:padding="4dp"
+        tools:src="@drawable/img_veg_1" />
+</LinearLayout>
